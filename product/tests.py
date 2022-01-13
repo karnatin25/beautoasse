@@ -15,4 +15,4 @@ class ProductTestCase(TestCase):
         data = Product_Beato.objects.get(name="Dell")
 
         self.assertEqual(data.volume,(data.cost_per_item*data.stock_quantity))
-        print('hi test case passed')
+        #print('hi test case passed')
